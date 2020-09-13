@@ -19,8 +19,5 @@
     "homepage": "https://github.com/Robertgaraban/nodejs-robert.github.io#readme",
     "dependencies": {
         "express": "^4.17.1"
-    },
-    "devDependencies": {
-        "nodemon": "^2.0.4"
     }
 }
