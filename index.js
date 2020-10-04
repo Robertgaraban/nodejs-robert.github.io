@@ -1,3 +1,20 @@
+const express = require('express')
+
+const app = express()
+
+app.get('/fotos', (req, res) => {
+    req.send('<html><body><h1>Cheguei na rota de fotos de Robert</h1></body></html>')
+})
+
+app.listen(8080, () => {
+    console.log('Iniciendo nosso terminal express')
+})
+
+
+
+
+
+/* nosso antego codigo, agora vamos cola a express
 const http = require('http')
 
 const server = http.createServer((req, res) => {
@@ -39,4 +56,4 @@ const server = http.createServer((req, res) => {
     }
 })
 
-server.listen(8080)
+server.listen(8080) */
